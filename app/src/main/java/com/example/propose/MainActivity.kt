@@ -91,9 +91,4 @@ class MainActivity : AppCompatActivity() {
         mediaPlayer?.start()
     }
 
-    override fun onDestroy() {
-        super.onDestroy()
-        mediaPlayer?.release()
-        mediaPlayer = null
-    }
-}
+
